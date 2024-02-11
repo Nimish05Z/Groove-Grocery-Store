@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Groove</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="./styles.css">
+    </head>
+    <body>
+
+        <header>
+            <img id="logo" src="https://kq-storage.s3.ap-south-1.amazonaws.com/Github/groove-logo%5B1%5D.png" alt="groove_logo">
+        </header>
+        <div id="top-container">
+    
+            <h1 id="heading"> Welcome to Groove</h1>
+            <p id="description">Select your favorite groceries, confirm your mobile number<br/>
+                and get the deliverd in 30 mins -
+            <b>Straight from the Farm</b></p>
+            <button id="top-btn">What's in store?</button>
+        </div>
+    
+        <h1 id="heading2">Here's What in the Story Today</h1>
+    
+        <table id="table">
+            <thead>
+                <tr>
+                    <th>SELECT</th>
+                    <th>ITEM</th>
+                    <th>NAME</th>
+                    <th>PRICE</th>
+                    <th>CONTAINS</th>
+                    <th>QUANTITY</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>
+                        <input type="checkbox">
+                    </td>
+                    <td>
+                        <img class="prod-imgs" src="https://kq-storage.s3.ap-south-1.amazonaws.com/Github/apple%5B1%5D.png" alt="green-apple">
+                    </td>
+                    <td>
+                        Green Apple
+                    </td>
+                    <td>
+                        <p>INR 22/- Per Kg</p>
+                    </td>
+                    <td>
+                        <p>500 Calories, 3.0g Protien,<br/> 2.0g Fat, 24g Fiber</p>
+                    </td>
+                    <td>
+                        <input class="qty-box" type="number">
+                    </td>
+                </tr>
+                <!--2nd-->
+                <tr>
+                    <td>
+                        <input type="checkbox">
+                    </td>
+                    <td>
+                        <img class="prod-imgs" src="https://kq-storage.s3.ap-south-1.amazonaws.com/Github/strawberry%5B1%5D.png" alt="Strawberries">
+                    </td>
+                    <td>
+                        Strawberries
+                    </td>
+                    <td>
+                        <p>INR 108/- Per Box</p>
+                    </td>
+                    <td>
+                        <p>424 Calories, 8.88 g Protien,<br/> 26.4 g Fiber.</p>
+                    </td>
+                    <td>
+                        <input class="qty-box" type="number">
+                    </td>
+                </tr>
+                <!--3rd-->
+                <tr>
+                    <td>
+                        <input type="checkbox">
+                    </td>
+                    <td>
+                        <img class="prod-imgs" src="https://kq-storage.s3.ap-south-1.amazonaws.com/Github/carrot%5B1%5D.png" alt="Carrots">
+                    </td>
+                    <td>
+                        Carrots
+                    </td>
+                    <td>
+                        <p>INR 26/- Per Kg</p>
+                    </td>
+                    <td>
+                        <p>410 Calories, 9.0 g Protien,<br/> 2.0 g Fat, 28.0 g Fiber.</p>
+                    </td>
+                    <td>
+                        <input class="qty-box" type="number">
+                    </td>
+                </tr>
+                <!--4th-->
+                <tr>
+                    <td>
+                        <input type="checkbox">
+                    </td>
+                    <td>
+                        <img class="prod-imgs" src="https://kq-storage.s3.ap-south-1.amazonaws.com/Github/spinach%5B1%5D.png" alt="Spinach">
+                    </td>
+                    <td>
+                        Spinach
+                    </td>
+                    <td>
+                        <p>INR 10/- Per Piece</p>
+                    </td>
+                    <td>
+                        <p>230 Calories, 29.0 g Protien,<br/> 4.0 g Fat, 22.0 g Fiber.</p>
+                    </td>
+                    <td>
+                        <input class="qty-box" type="number">
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <br>
+        <p class="bottom-text">One last step to place your order.</p>
+    <p class="bottom-text">Enter your mobile number and you are done!</p>
+    <input id="mob-box" type="text" placeholder="Enter your mobile number">
+    <button id="buy-btn">Buy Now</button>
+    <p id="thank-msg">thanks you for shooping</p>
+    <footer>
+        <p>Made with ❤️ by Kalvium</p>
+    </footer>
+    <script>
+        let button=document.getElementById("buy-btn");
+        let thankMsg=document.getElementById("thank-msg");
+        button.onclick=()=>{
+            thankMsg.style.display="block";
+            button.style.display="none";
+        }
+    </script>
+</body>
+</html>

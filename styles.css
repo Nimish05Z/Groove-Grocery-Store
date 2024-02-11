@@ -1,0 +1,176 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+        *
+        {
+            margin: 0;
+            padding: 0;
+            box-sizing:border-box;
+        }
+        body
+        {
+            font-family: 'poppins';
+            text-align: center;
+        }
+
+        header
+        {
+            height: 65px;
+            background-color: #000000;
+        }
+
+        #logo
+        {
+            display: block;
+            margin: auto;
+            width: 100px;
+            padding-top: 10px;
+        }
+
+        #top-container
+        {
+            background-image: url(https://kq-storage.s3.ap-south-1.amazonaws.com/Github/groove-bg%5B1%5D.png);
+            height: 95vh;
+            background-size: 100% 100%;
+            display: flex; 
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        #heading
+        {
+            font-size: 40px;
+        }
+
+        #description
+        {
+            font-size: large;
+            margin-top: 10px;
+        }
+
+        #top-btn
+        {
+            width: 100px;
+            height: 60px;
+            background-color: #27AE60;
+            border: none;
+            margin-top: 10px;
+            color: white;
+            font-weight: bold;
+            font-size: 16px;
+        }
+
+        #top-btn:hover
+        {
+            cursor: pointer;
+        }
+        
+        #heading2
+        {
+            text-align: center;
+            margin-top: 40px;
+            margin-bottom: 50px;
+        }
+
+        table,th,td
+        {
+            border: 2px solid gray;
+            border-collapse: collapse;
+        }
+
+        .prod-imgs
+        {
+            width: 100px;
+        }
+
+        th,td
+        {
+            padding: 20px;
+            text-align: center;
+        }
+
+        .qty-box
+        {
+            width: 40px;
+        }
+
+
+        th
+        {
+            background-color: #27AE60;
+            color: white;
+            font-size: large;
+        }
+
+        td
+        {
+            font-size: large;
+        }
+
+        table
+        {
+            margin: auto;
+            margin-bottom: 40px;
+        }
+
+        .bottom-text
+        {
+            text-align: center;
+            font-size: large;
+        }
+
+        tr:hover
+        {
+            background-color: beige;
+        }
+        #mob-box
+        {
+            display: block;
+            margin: auto;
+            margin-top: 20px;
+            height: 30px;
+            width: 250px;
+            padding-left: 45px;
+        }
+
+        #buy-btn
+        {
+            display: block;
+            margin: auto;
+            height: 35px;
+            width: 150px;
+            margin-top: 20px;
+            background-color: #27AE60;
+            font-size: 16px;
+            color: white;
+            border: none;
+            font-weight: bold;
+        }
+
+        #buy-btn:hover
+        {
+            cursor: pointer;
+        }
+
+        footer
+        {
+            background-color: black;
+            height: 60px;
+            margin-top: 40px;
+            color: white;
+            text-align: center;
+            padding-top: 20px;
+        }
+
+        #thank-msg
+        {
+            text-align: center;
+            font-weight: bold;
+            display: none;
+            margin-top: 20px;
+        }
+
+        a
+        {
+            text-decoration: none;
+            color: white;
+        }
